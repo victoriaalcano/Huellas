@@ -1,0 +1,63 @@
+/*Colores principales 
+    Rojo: #B71F1F
+    Blanco:#F7F7F7
+    Rosa:#F51E56 40%
+    Texto oscuro:#311506
+    Texto label oscuro:#7A7A7A
+    Fondo o label claro:#D9D9D9 */
+
+    /*Colores secundarios
+    Amarillo:#FFEC5C
+    Naranja:#FF7339
+    Celeste:#51A1FF 30% */
+    
+    /*Fuentes: Poppins y Baloo Tammudu*/
+   
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+
+    body {
+        font-family:Poppins;
+        margin-left: 144px;
+        margin-right: 144px;
+        background-color: #F7F7F7;
+        color: #311506;
+    }
+    header {
+        background-color: #E2E0E2;
+        color: white;
+        text-align: center;
+        width: 100%;
+        height: 85px;
+    }
+
+    .containerLogo{
+        text-align: left;
+    }
+    .logo{
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #B71F1F;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .pasos {
+        border: 1px solid #ccc;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    footer {
+        background-color: #B71F1F;
+        color: white;
+        text-align: center;
+        height: 80px;
+        width: 100%;
+        padding-top: 20px;
+    }

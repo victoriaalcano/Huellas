@@ -17,26 +17,77 @@
   
 
     body {
+        width:1440px;
         font-family:Poppins;
         margin-left: 144px;
         margin-right: 144px;
         background-color: #F7F7F7;
         color: #311506;
     }
-    header {
-        background-color: #E2E0E2;
-        color: white;
-        text-align: center;
+    /*NavBar*/
+    nav {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
         width: 100%;
         height: 85px;
     }
 
+    /*Logo*/
     .containerLogo{
-        text-align: left;
-    }
-    .logo{
         padding: 20px;
     }
+
+    /*Btn*/
+    .descargar{
+        height: 40px;
+        margin-right: 145px;
+    }
+    .descargar button {
+        height: 100%;
+        width: 137px;
+        border-radius: 30px;
+        border-color: #B71F1F;
+        color: #B71F1F;
+        font-family: Poppins;
+        font-size: 20px;
+
+    }
+
+/*Hero section*/
+    .hero{
+        height: 560px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .Herotxt{
+        width: 639px;
+        height: 239px;
+      /*  margin-top: 133px;*/
+        margin-bottom: 190px;
+    }
+
+    .imgHero{
+        width: 627px;
+        height: 456px;
+        margin-top: 16px;
+    }
+    
+    h1{
+        font-size: 60px;
+        font-weight: 700;
+        color:#311506
+    }
+
+    #heroCopy{
+        font-size: 30px;
+        font-weight: 500;
+        color:#7A7A7A
+    }
+
+
 
     h2 {
         text-align: center;
